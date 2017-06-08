@@ -53,25 +53,32 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/ros_mesg_test_generate_messages_nodejs.dir/progress.make
 
+CMakeFiles/ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/point2.js
 CMakeFiles/ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js
 CMakeFiles/ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js
 
 
+devel/share/gennodejs/ros/ros_mesg_test/msg/point2.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+devel/share/gennodejs/ros/ros_mesg_test/msg/point2.js: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ros_mesg_test/point2.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/gennodejs/ros/ros_mesg_test/msg
+
 devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: ../msg/MapInfo.msg
-devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: ../msg/obs.msg
+devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: ../msg/point2.msg
 devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ros_mesg_test/MapInfo.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ros_mesg_test/MapInfo.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/gennodejs/ros/ros_mesg_test/msg
 
 devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
 devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js: ../msg/obs.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ros_mesg_test/obs.msg"
+devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from ros_mesg_test/obs.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/gennodejs/ros/ros_mesg_test/msg
 
 ros_mesg_test_generate_messages_nodejs: CMakeFiles/ros_mesg_test_generate_messages_nodejs
+ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/point2.js
 ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js
 ros_mesg_test_generate_messages_nodejs: devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js
 ros_mesg_test_generate_messages_nodejs: CMakeFiles/ros_mesg_test_generate_messages_nodejs.dir/build.make

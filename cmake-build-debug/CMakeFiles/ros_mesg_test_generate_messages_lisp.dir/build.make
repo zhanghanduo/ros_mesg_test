@@ -53,25 +53,32 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/ros_mesg_test_generate_messages_lisp.dir/progress.make
 
+CMakeFiles/ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/point2.lisp
 CMakeFiles/ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp
 CMakeFiles/ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp
 
 
+devel/share/common-lisp/ros/ros_mesg_test/msg/point2.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+devel/share/common-lisp/ros/ros_mesg_test/msg/point2.lisp: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ros_mesg_test/point2.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/common-lisp/ros/ros_mesg_test/msg
+
 devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: ../msg/MapInfo.msg
-devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: ../msg/obs.msg
+devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: ../msg/point2.msg
 devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ros_mesg_test/MapInfo.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from ros_mesg_test/MapInfo.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/common-lisp/ros/ros_mesg_test/msg
 
 devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp: ../msg/obs.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from ros_mesg_test/obs.msg"
+devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from ros_mesg_test/obs.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/common-lisp/ros/ros_mesg_test/msg
 
 ros_mesg_test_generate_messages_lisp: CMakeFiles/ros_mesg_test_generate_messages_lisp
+ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/point2.lisp
 ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp
 ros_mesg_test_generate_messages_lisp: devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp
 ros_mesg_test_generate_messages_lisp: CMakeFiles/ros_mesg_test_generate_messages_lisp.dir/build.make

@@ -53,27 +53,35 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/ros_mesg_test_generate_messages_cpp.dir/progress.make
 
+CMakeFiles/ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/point2.h
 CMakeFiles/ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/MapInfo.h
 CMakeFiles/ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/obs.h
 
 
+devel/include/ros_mesg_test/point2.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+devel/include/ros_mesg_test/point2.h: ../msg/point2.msg
+devel/include/ros_mesg_test/point2.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ros_mesg_test/point2.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/include/ros_mesg_test -e /opt/ros/kinetic/share/gencpp/cmake/..
+
 devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 devel/include/ros_mesg_test/MapInfo.h: ../msg/MapInfo.msg
-devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+devel/include/ros_mesg_test/MapInfo.h: ../msg/obs.msg
+devel/include/ros_mesg_test/MapInfo.h: ../msg/point2.msg
 devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
 devel/include/ros_mesg_test/MapInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ros_mesg_test/MapInfo.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ros_mesg_test/MapInfo.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/include/ros_mesg_test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 devel/include/ros_mesg_test/obs.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 devel/include/ros_mesg_test/obs.h: ../msg/obs.msg
+devel/include/ros_mesg_test/obs.h: ../msg/point2.msg
 devel/include/ros_mesg_test/obs.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ros_mesg_test/obs.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ros_mesg_test/obs.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/include/ros_mesg_test -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 ros_mesg_test_generate_messages_cpp: CMakeFiles/ros_mesg_test_generate_messages_cpp
+ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/point2.h
 ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/MapInfo.h
 ros_mesg_test_generate_messages_cpp: devel/include/ros_mesg_test/obs.h
 ros_mesg_test_generate_messages_cpp: CMakeFiles/ros_mesg_test_generate_messages_cpp.dir/build.make

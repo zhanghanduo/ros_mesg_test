@@ -118,6 +118,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_mesg_test/msg" TYPE FILE FILES
     "/home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg"
     "/home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg"
+    "/home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg"
     )
 endif()
 

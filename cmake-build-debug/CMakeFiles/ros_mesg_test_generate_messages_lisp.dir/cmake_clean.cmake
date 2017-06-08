@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ros_mesg_test_generate_messages_lisp"
+  "devel/share/common-lisp/ros/ros_mesg_test/msg/point2.lisp"
   "devel/share/common-lisp/ros/ros_mesg_test/msg/MapInfo.lisp"
   "devel/share/common-lisp/ros/ros_mesg_test/msg/obs.lisp"
 )

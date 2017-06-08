@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 include CMakeFiles/_ros_mesg_test_generate_messages_check_deps_MapInfo.dir/progress.make
 
 CMakeFiles/_ros_mesg_test_generate_messages_check_deps_MapInfo:
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_mesg_test /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg geometry_msgs/Quaternion:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_mesg_test /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg ros_mesg_test/obs:ros_mesg_test/point2:std_msgs/Header
 
 _ros_mesg_test_generate_messages_check_deps_MapInfo: CMakeFiles/_ros_mesg_test_generate_messages_check_deps_MapInfo
 _ros_mesg_test_generate_messages_check_deps_MapInfo: CMakeFiles/_ros_mesg_test_generate_messages_check_deps_MapInfo.dir/build.make

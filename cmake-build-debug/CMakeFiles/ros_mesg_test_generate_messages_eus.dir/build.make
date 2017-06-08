@@ -53,30 +53,37 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/ros_mesg_test_generate_messages_eus.dir/progress.make
 
+CMakeFiles/ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/point2.l
 CMakeFiles/ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l
 CMakeFiles/ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/obs.l
 CMakeFiles/ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/manifest.l
 
 
+devel/share/roseus/ros/ros_mesg_test/msg/point2.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ros_mesg_test/msg/point2.l: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ros_mesg_test/point2.msg"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/roseus/ros/ros_mesg_test/msg
+
 devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: ../msg/MapInfo.msg
-devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: ../msg/obs.msg
+devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: ../msg/point2.msg
 devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ros_mesg_test/MapInfo.msg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ros_mesg_test/MapInfo.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/roseus/ros/ros_mesg_test/msg
 
 devel/share/roseus/ros/ros_mesg_test/msg/obs.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 devel/share/roseus/ros/ros_mesg_test/msg/obs.l: ../msg/obs.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ros_mesg_test/obs.msg"
+devel/share/roseus/ros/ros_mesg_test/msg/obs.l: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ros_mesg_test/obs.msg"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/roseus/ros/ros_mesg_test/msg
 
 devel/share/roseus/ros/ros_mesg_test/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for ros_mesg_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for ros_mesg_test"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/share/roseus/ros/ros_mesg_test ros_mesg_test std_msgs geometry_msgs
 
 ros_mesg_test_generate_messages_eus: CMakeFiles/ros_mesg_test_generate_messages_eus
+ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/point2.l
 ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/MapInfo.l
 ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/msg/obs.l
 ros_mesg_test_generate_messages_eus: devel/share/roseus/ros/ros_mesg_test/manifest.l

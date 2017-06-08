@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 include CMakeFiles/_ros_mesg_test_generate_messages_check_deps_obs.dir/progress.make
 
 CMakeFiles/_ros_mesg_test_generate_messages_check_deps_obs:
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_mesg_test /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg 
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ros_mesg_test /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg ros_mesg_test/point2
 
 _ros_mesg_test_generate_messages_check_deps_obs: CMakeFiles/_ros_mesg_test_generate_messages_check_deps_obs
 _ros_mesg_test_generate_messages_check_deps_obs: CMakeFiles/_ros_mesg_test_generate_messages_check_deps_obs.dir/build.make

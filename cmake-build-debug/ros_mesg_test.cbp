@@ -209,11 +209,11 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ros_mesg_test_genlisp">
+			<Target title="ros_mesg_test_generate_messages_eus">
 				<Option working_dir="/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ros_mesg_test_genlisp"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ros_mesg_test_generate_messages_eus"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -589,6 +589,26 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ros_mesg_test_genlisp">
+				<Option working_dir="/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ros_mesg_test_genlisp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_ros_mesg_test_generate_messages_check_deps_point2">
+				<Option working_dir="/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 _ros_mesg_test_generate_messages_check_deps_point2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="actionlib_msgs_generate_messages_lisp">
 				<Option working_dir="/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug"/>
 				<Option type="4"/>
@@ -624,16 +644,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ros_mesg_test_generate_messages_eus">
-				<Option working_dir="/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 ros_mesg_test_generate_messages_eus"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>

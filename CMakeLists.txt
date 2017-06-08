@@ -36,6 +36,7 @@ add_message_files(
   FILES
   MapInfo.msg
   obs.msg
+  point2.msg
 )
 
 ## Generate services in the 'srv' folder

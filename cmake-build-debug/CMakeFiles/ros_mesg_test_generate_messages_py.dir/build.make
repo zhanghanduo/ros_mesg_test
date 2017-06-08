@@ -53,32 +53,40 @@ CMAKE_BINARY_DIR = /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/ros_mesg_test_generate_messages_py.dir/progress.make
 
+CMakeFiles/ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_point2.py
 CMakeFiles/ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py
 CMakeFiles/ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py
 CMakeFiles/ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py
 
 
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_point2.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_point2.py: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ros_mesg_test/point2"
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/lib/python2.7/dist-packages/ros_mesg_test/msg
+
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: ../msg/MapInfo.msg
-devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: ../msg/obs.msg
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: ../msg/point2.msg
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ros_mesg_test/MapInfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG ros_mesg_test/MapInfo"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/lib/python2.7/dist-packages/ros_mesg_test/msg
 
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py: ../msg/obs.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG ros_mesg_test/obs"
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py: ../msg/point2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG ros_mesg_test/obs"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg -Iros_mesg_test:/home/zh/catkin_ws/src/ros_mesg_test/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p ros_mesg_test -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/lib/python2.7/dist-packages/ros_mesg_test/msg
 
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_point2.py
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py
 devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for ros_mesg_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python msg __init__.py for ros_mesg_test"
 	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/zh/catkin_ws/src/ros_mesg_test/cmake-build-debug/devel/lib/python2.7/dist-packages/ros_mesg_test/msg --initpy
 
 ros_mesg_test_generate_messages_py: CMakeFiles/ros_mesg_test_generate_messages_py
+ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_point2.py
 ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_MapInfo.py
 ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/_obs.py
 ros_mesg_test_generate_messages_py: devel/lib/python2.7/dist-packages/ros_mesg_test/msg/__init__.py

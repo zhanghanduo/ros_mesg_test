@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg;/home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg"
+messages_str = "/home/zh/catkin_ws/src/ros_mesg_test/msg/MapInfo.msg;/home/zh/catkin_ws/src/ros_mesg_test/msg/obs.msg;/home/zh/catkin_ws/src/ros_mesg_test/msg/point2.msg"
 services_str = ""
 pkg_name = "ros_mesg_test"
 dependencies_str = "std_msgs;geometry_msgs"

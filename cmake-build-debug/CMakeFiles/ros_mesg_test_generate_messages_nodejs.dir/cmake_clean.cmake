@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ros_mesg_test_generate_messages_nodejs"
+  "devel/share/gennodejs/ros/ros_mesg_test/msg/point2.js"
   "devel/share/gennodejs/ros/ros_mesg_test/msg/MapInfo.js"
   "devel/share/gennodejs/ros/ros_mesg_test/msg/obs.js"
 )

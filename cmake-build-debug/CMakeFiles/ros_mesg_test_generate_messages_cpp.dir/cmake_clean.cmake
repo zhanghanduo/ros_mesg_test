@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ros_mesg_test_generate_messages_cpp"
+  "devel/include/ros_mesg_test/point2.h"
   "devel/include/ros_mesg_test/MapInfo.h"
   "devel/include/ros_mesg_test/obs.h"
 )
