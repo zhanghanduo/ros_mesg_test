@@ -14,7 +14,7 @@ int main(int argc, char* argv[]){
 
     ros::NodeHandle nh;
 
-    ros::Publisher pub = nh.advertise<ros_mesg_test::MapInfo>("msg", 1000);
+    ros::Publisher pub = nh.advertise<ros_mesg_test::MapInfo>("/long/map_msg", 1000);
 
     ros_mesg_test::point2 spoint;
     ros_mesg_test::MapInfo map_info;

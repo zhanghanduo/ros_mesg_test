@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
 
     ros::NodeHandle nh;
 
-    ros::Subscriber sub = nh.subscribe("msg", 1000, sub_callback);
+    ros::Subscriber sub = nh.subscribe("/long/map_msg", 1000, sub_callback);
 
     ros::spin();
 
