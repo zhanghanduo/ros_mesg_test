@@ -1,0 +1,4 @@
+uint32 startingCol
+uint32 endingCol
+uint32 startingRow
+uint32 endingRow
